@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chocolate Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Chocolate Shop Seasonal Flavors</h1>
+    <section>
+        <h2>Add New Flavor</h2>
+        <input type="text" id="flavorName" placeholder="Flavor Name">
+        <input type="text" id="season" placeholder="Season (e.g., Winter)">
+        <button onclick="addFlavor()">Add Flavor</button>
+    </section>
+    <section>
+        <h2>Seasonal Flavors</h2>
+        <button onclick="fetchFlavors()">View Flavors</button>
+        <ul id="flavorList"></ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
